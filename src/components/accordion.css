@@ -67,7 +67,7 @@ p{
 h3:hover{
     color: hsl(292, 16%, 49%);
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 550px) {
    .accordion{
     width: 85%;
    } 
