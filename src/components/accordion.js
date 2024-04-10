@@ -27,7 +27,7 @@ function Accordion() {
           </div>
           <div className={selected === i ? 'content show' : 'content'}>
           <br />
-          {item.answer}</div>
+          <p>{item.answer}</p></div>
         </div>
          {arr.length - 1 !== i && <hr /> }
   
@@ -54,6 +54,10 @@ const data = [
   {
     question: 'Can I use Frontend Mentor projects in my portfolio?',
     answer: "Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent way to showcase your skills to potential employers"
+  },
+  {
+  question: "How can I get help if I'm stuck on a Frontend Mentor challenge?",
+  answer: "The best place to get help is inside Frontend Mentor's Discord community. There's a help channel where you can ask questions and seek support from other community members"
   }
 ]
 export default Accordion;
